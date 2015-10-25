@@ -23,6 +23,9 @@ The following steps outline the progress in this script:
 * Eighth, merged data frames from step 6 and 7 are now column bound with original merged dataframe
 * Ninth, merged data frame from step 8 is now grouped first by Subject_Observation and than Physical_Activity. This grouped data frame is then summarize each with means; a tidy data set now evolves
 * Tenth, the tidy set from step 9 conforms tidy data principle: each variable forms a column, each observation forms a row and each type of observational unit forms a table
+* Referring to step 10, Hadley Wickham's work on tidy data can be read here: http://vita.had.co.nz/papers/tidy-data.pdf
+* It is of the opinion that, the tidy data set obtained from step 10 is a narrow data set. Because the final tidy set appears as in, each subject's individual activity tends to be stacked
+* The filtering mechanism utilized with contains in select, only allowed any column names containing "mean" (for means) and "std" (standard deviations) only
 
 
 # tidy_values.txt
