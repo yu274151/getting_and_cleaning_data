@@ -31,5 +31,14 @@ The following steps outline the progress in this script:
 # tidy_values.txt
 The above mentioned file name is the written tidy data set
 
+# How to read tidy_values.txt
+Assuming dplyr is already loaded:
+
+
+tidy_set <- tbl_df(read.table("tidy_values.txt", stringsAsFactors = FALSE))
+
+Note: This assumes tidy_values.txt reside in same directory
+
+
 
 
