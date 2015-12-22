@@ -13,7 +13,7 @@ The unzipped file sets are uploaded in this repository.
 
 The following steps outline the progress in this script:
 
-* First, 8 files of interest are loaded into memory. 
+* First, 8 files of interest are loaded in to memory. 
 * Second, training and test data sets are merged
 * Third, this merged data frame's column names are revised with those from features data frame. Because, we are only interested in feature's V2 column, we used that to rename this merged data frame's columns
 * Fourth, dplyr's select function is called on this renamed and meaningful merged data frame; contains was used to act as a boolean predicate to opt in for means and standard deviation (or matter of interest as outlined in project)
