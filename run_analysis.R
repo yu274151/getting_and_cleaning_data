@@ -1,4 +1,4 @@
-# This program's efficacty is dependent upon dplyr library.
+# This program's efficacy is dependent upon dplyr library.
 # dplyr vignette: https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
 # Many functions and ideas were procured from aforementioned URL and swirl library 
 
